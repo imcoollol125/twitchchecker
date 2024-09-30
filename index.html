@@ -271,12 +271,12 @@
         sound.play().catch(error => console.log('Error playing sound:', error));
     }
 
-    // Ladespinner nach 5 Sekunden ausblenden und Hauptinhalt anzeigen
+    // Ladespinner nach 2,5 Sekunden ausblenden und Hauptinhalt anzeigen
     window.onload = function() {
         setTimeout(() => {
             document.querySelector('.loader').style.display = 'none';
             document.getElementById('mainContent').style.display = 'block';
-        }, 2500);
+        }, 2500); // Auf 2,5 Sekunden geändert
     }
 </script>
 
