@@ -211,7 +211,7 @@
 
         if (clientId && clientSecret && streamer) {
             getAccessToken(clientId, clientSecret);
-            setInterval(checkStreamerStatus, 60000); // Jede Minute checken
+            setInterval(checkStreamerStatus, 5000); // Jede Minute checken
         } else {
             alert('Bitte fülle alle Felder aus (Client ID, Client Secret und Streamer Name)');
         }
@@ -276,7 +276,7 @@
         setTimeout(() => {
             document.querySelector('.loader').style.display = 'none';
             document.getElementById('mainContent').style.display = 'block';
-        }, 5000);
+        }, 2500);
     }
 </script>
 
