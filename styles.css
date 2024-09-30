@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'San Francisco Pro';
+    src: url('fonts/SanFranciscoPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'San Francisco Pro';
+    src: url('fonts/SanFranciscoPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Rest der CSS */
+body {
+    font-family: 'San Francisco Pro', sans-serif; /* Ändere die Schriftart hier */
+    background: linear-gradient(135deg, #1f1f1f, #2c2f33);
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    animation: bgMove 10s infinite alternate ease-in-out;
+}
+
+/* Weitere CSS-Regeln hier */
